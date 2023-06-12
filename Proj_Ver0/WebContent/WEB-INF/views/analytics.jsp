@@ -25,6 +25,12 @@
   </div>
 
   <script>
+  function showNextNumber(){
+	  var taskid = document.getElementById("numberInput");
+	  
+  }
+  
+  
     // Define the data for stacked bar graph (tasks and subtasks completed for each day - example data)
     var tasksCompletedData = [5, 3, 8, 2, 6, 4, 7, 9, 5, 3, 8, 2, 6, 4, 7, 9, 5, 3, 8, 2, 6, 4, 7, 9, 5, 3, 8, 2, 6, 4];
     var subtasksCompletedData = [3, 2, 6, 1, 4, 3, 5, 7, 3, 2, 6, 1, 4, 3, 5, 7, 3, 2, 6, 1, 4, 3, 5, 7, 3, 2, 6, 1, 4, 3];

@@ -80,7 +80,8 @@ public class FrontController {
 					System.out.println("logged in");
 					String role = Integer.toString(rs.getInt("user_role"));
 					if (role.equalsIgnoreCase("1")) {
-						return "managerAnalytics";
+						// return "managerAnalytics";
+						return "analytics";
 						// return "prod";
 					} else {
 						// return "analytics";
